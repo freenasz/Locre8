@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Locre8 - Creative Design Agency</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Montserrat:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <div class="logo">Locre8</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-slider">
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1920&h=1080" alt="Modern Design Office" class="hero-bg">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1497366811353-6870744d04b2?auto=format&fit=crop&w=1920&h=1080" alt="Creative Workspace" class="hero-bg">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=1920&h=1080" alt="Design Studio" class="hero-bg">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=1920&h=1080" alt="Creative Process" class="hero-bg">
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=1920&h=1080" alt="Team Collaboration" class="hero-bg">
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1>Transforming Visions into Digital Excellence</h1>
+            <p>Award-winning creative agency crafting distinctive brands, stunning websites, and unforgettable digital experiences since 2015</p>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">250+</span>
+                    <span class="stat-label">Projects Completed</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">98%</span>
+                    <span class="stat-label">Client Satisfaction</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">15+</span>
+                    <span class="stat-label">Industry Awards</span>
+                </div>
+            </div>
+            <a href="#contact" class="cta-button">Start Your Project</a>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Expertise</h2>
+        <p class="section-intro">We blend creativity with strategy to deliver results that exceed expectations. Our comprehensive suite of services is designed to elevate your brand and drive business growth.</p>
+        <div class="services-grid">
+            <div class="service-card" data-price="500">
+                <i class="fas fa-paint-brush"></i>
+                <h3>Logo Design</h3>
+                <p>Create a memorable brand identity with our custom logo design service. We craft unique, versatile logos that capture your brand's essence and resonate with your target audience.</p>
+                <ul class="service-features">
+                    <li>Multiple Concept Designs</li>
+                    <li>Unlimited Revisions</li>
+                    <li>All Source Files</li>
+                    <li>Brand Guidelines</li>
+                </ul>
+                <div class="price">Starting at $500</div>
+                <button class="select-service">Select Package</button>
+            </div>
+            <div class="service-card" data-price="800">
+                <i class="fas fa-boxes"></i>
+                <h3>Product Design</h3>
+                <p>Transform your ideas into market-ready products. Our product design team combines aesthetics with functionality to create products that users love and businesses profit from.</p>
+                <ul class="service-features">
+                    <li>User Research</li>
+                    <li>Prototyping</li>
+                    <li>3D Modeling</li>
+                    <li>Manufacturing Support</li>
+                </ul>
+                <div class="price">Starting at $800</div>
+                <button class="select-service">Select Package</button>
+            </div>
+            <div class="service-card" data-price="1500">
+                <i class="fas fa-building"></i>
+                <h3>Business Branding</h3>
+                <p>Build a powerful brand that stands out. Our comprehensive branding package includes everything you need to establish a strong market presence and connect with your audience.</p>
+                <ul class="service-features">
+                    <li>Brand Strategy</li>
+                    <li>Visual Identity</li>
+                    <li>Marketing Materials</li>
+                    <li>Brand Guidelines</li>
+                </ul>
+                <div class="price">Starting at $1,500</div>
+                <button class="select-service">Select Package</button>
+            </div>
+            <div class="service-card" data-price="2000">
+                <i class="fas fa-code"></i>
+                <h3>Web Design & Development</h3>
+                <p>Get a stunning, high-performance website that converts visitors into customers. We create responsive, SEO-friendly websites that look great on all devices.</p>
+                <ul class="service-features">
+                    <li>Custom Design</li>
+                    <li>Mobile Responsive</li>
+                    <li>SEO Optimization</li>
+                    <li>CMS Integration</li>
+                </ul>
+                <div class="price">Starting at $2,000</div>
+                <button class="select-service">Select Package</button>
+            </div>
+            <div class="service-card" data-price="1200">
+                <i class="fas fa-pencil-ruler"></i>
+                <h3>UI/UX Design</h3>
+                <p>Create intuitive digital experiences that users love. Our UI/UX design service focuses on creating user-friendly interfaces that drive engagement and satisfaction.</p>
+                <ul class="service-features">
+                    <li>User Research</li>
+                    <li>Wireframing</li>
+                    <li>Interactive Prototypes</li>
+                    <li>Usability Testing</li>
+                </ul>
+                <div class="price">Starting at $1,200</div>
+                <button class="select-service">Select Package</button>
+            </div>
+            <div class="service-card" data-price="1000">
+                <i class="fas fa-video"></i>
+                <h3>Video Editing</h3>
+                <p>Tell your story through compelling video content. Our video editing service helps you create engaging content that captures attention and drives engagement.</p>
+                <ul class="service-features">
+                    <li>Professional Editing</li>
+                    <li>Color Grading</li>
+                    <li>Sound Design</li>
+                    <li>Motion Graphics</li>
+                </ul>
+                <div class="price">Starting at $1,000</div>
+                <button class="select-service">Select Package</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Featured Projects</h2>
+        <p class="section-intro">Discover how we've helped businesses achieve their goals through creative solutions.</p>
+        
+        <div class="projects-grid">
+            <div class="project-card featured">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1600132806370-bf17e65e942f?auto=format&fit=crop&w=800&h=600" alt="Brand Identity Design">
+                    <div class="project-overlay">
+                        <div class="project-category">Brand Identity</div>
+                        <a href="#contact" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>TechCore Rebrand</h3>
+                    <p>Complete brand transformation for a tech startup, including logo design, brand guidelines, and marketing materials.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="value">250%</span>
+                            <span class="label">Brand Recognition</span>
+                        </div>
+                        <div class="stat">
+                            <span class="value">2M+</span>
+                            <span class="label">Impressions</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&h=600" alt="E-Commerce Website">
+                    <div class="project-overlay">
+                        <div class="project-category">Web Development</div>
+                        <a href="#contact" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>LuxeStyle E-commerce</h3>
+                    <p>Modern e-commerce platform with seamless UX and advanced features.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="value">150%</span>
+                            <span class="label">Sales Increase</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?auto=format&fit=crop&w=800&h=600" alt="Mobile App Design">
+                    <div class="project-overlay">
+                        <div class="project-category">UI/UX Design</div>
+                        <a href="#contact" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>FinTech Mobile App</h3>
+                    <p>Intuitive mobile banking application with focus on user experience.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="value">1M+</span>
+                            <span class="label">Downloads</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&h=600" alt="Product Design">
+                    <div class="project-overlay">
+                        <div class="project-category">Product Design</div>
+                        <a href="#contact" class="project-link">View Project</a>
+                    </div>
+                </div>
+                <div class="project-content">
+                    <h3>EcoPackage Design</h3>
+                    <p>Sustainable product packaging design with modern aesthetics.</p>
+                    <div class="project-stats">
+                        <div class="stat">
+                            <span class="value">40%</span>
+                            <span class="label">Cost Reduction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="why-us">
+        <h2>Why Choose Locre8?</h2>
+        <div class="why-us-grid">
+            <div class="why-us-card">
+                <i class="fas fa-chart-line"></i>
+                <h3>Results-Driven Approach</h3>
+                <p>We focus on creating solutions that drive real business growth and ROI for our clients.</p>
+            </div>
+            <div class="why-us-card">
+                <i class="fas fa-users"></i>
+                <h3>Expert Team</h3>
+                <p>Our team of industry veterans brings decades of combined experience to every project.</p>
+            </div>
+            <div class="why-us-card">
+                <i class="fas fa-clock"></i>
+                <h3>Timely Delivery</h3>
+                <p>We respect deadlines and ensure your project is delivered on time, every time.</p>
+            </div>
+            <div class="why-us-card">
+                <i class="fas fa-comments"></i>
+                <h3>Clear Communication</h3>
+                <p>Enjoy transparent, regular updates throughout your project's journey.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Start Your Project</h2>
+        <p class="section-intro">Ready to transform your business? Let's create something amazing together. Fill out the form below, and we'll get back to you within 24 hours.</p>
+        <div class="contact-container">
+            <form id="job-request-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" required placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" required placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" required placeholder="Your WhatsApp Number" pattern="[0-9+\s-]+" title="Please enter a valid phone number">
+                    <small class="input-hint">Include country code (e.g., +1 555-123-4567)</small>
+                </div>
+                <div class="form-group">
+                    <select id="service-select" name="service" required>
+                        <option value="">Select Service</option>
+                        <option value="logo-design">Logo Design</option>
+                        <option value="product-design">Product Design</option>
+                        <option value="business-branding">Business Branding</option>
+                        <option value="web-development">Web Design & Development</option>
+                        <option value="ui-ux-design">UI/UX Design</option>
+                        <option value="video-editing">Video Editing</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" required placeholder="Tell us about your project"></textarea>
+                </div>
+                <div class="form-group file-upload">
+                    <label for="file-upload" class="custom-file-upload">
+                        <i class="fas fa-cloud-upload-alt"></i> Upload Files
+                    </label>
+                    <input type="file" id="file-upload" name="files" multiple accept=".jpg,.jpeg,.png,.gif,.pdf,.doc,.docx,.zip,.rar">
+                    <div id="file-list" class="file-list"></div>
+                    <small class="input-hint">
+                        Accepted files: Images, PDF, DOC, ZIP (Max 10MB each)
+                    </small>
+                </div>
+                <div class="form-group">
+                    <div class="price-display">Estimated Investment: <span id="estimated-price">$0</span></div>
+                    <p class="price-note">* Final price may vary based on project requirements</p>
+                </div>
+                <button type="submit" class="submit-button">Get Started</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <h2>Client Success Stories</h2>
+        <div class="testimonials-grid">
+            <div class="testimonial-item">
+                <img src="https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=300&h=300" alt="Sarah Johnson" class="client-photo">
+                <div class="testimonial-content">
+                    <p>"Locre8 transformed our brand identity completely. Their attention to detail and creativity exceeded our expectations."</p>
+                    <div class="client-info">
+                        <h4>Sarah Johnson</h4>
+                        <p>CEO, TechStart Inc.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&w=300&h=300" alt="Michael Chen" class="client-photo">
+                <div class="testimonial-content">
+                    <p>"The team's expertise in web design helped us achieve a 200% increase in online engagement."</p>
+                    <div class="client-info">
+                        <h4>Michael Chen</h4>
+                        <p>Marketing Director, Innovate Co.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-item">
+                <img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=300&h=300" alt="Emma Davis" class="client-photo">
+                <div class="testimonial-content">
+                    <p>"Professional, creative, and always delivering beyond expectations. Highly recommended!"</p>
+                    <div class="client-info">
+                        <h4>Emma Davis</h4>
+                        <p>Founder, StyleHouse</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Locre8</h3>
+                <p>Transforming businesses through innovative design solutions. Your success is our priority.</p>
+                <div class="awards">
+                    <p>🏆 Best Design Agency 2023</p>
+                    <p>🌟 Top UX Design Studio</p>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p><i class="fas fa-envelope"></i> hello@locre8.com</p>
+                <p><i class="fas fa-phone"></i> +1 (555) 123-4567</p>
+                <p><i class="fas fa-location-dot"></i> 123 Creative Street, Design District, CA 90210</p>
+                <p><i class="fas fa-clock"></i> Mon-Fri: 9:00 AM - 6:00 PM PST</p>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <p>Follow us for design inspiration and updates</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-behance"></i></a>
+                    <a href="#"><i class="fab fa-dribbble"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Locre8. All rights reserved. | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            <small class="image-credits">Images courtesy of <a href="https://unsplash.com" target="_blank" rel="noopener noreferrer">Unsplash</a></small>
+        </div>
+    </footer>
+
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/image-sources.js"></script>
+</body>
+</html>
